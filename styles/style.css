@@ -1,0 +1,333 @@
+/*I-Style general*/
+*{ list-style: none; 
+}
+
+
+body {
+    background: black url(/images/illustrations/Bathome1.png) no-repeat;
+    background-position: 60% -1.5%;
+    width: 96vw;
+    text-align: justify; 
+    border-left: 1px solid white;
+   margin-left: 8vw;
+   border-right: 1px solid white;
+   margin-right: 8vw;
+   font-size: 25px;
+}
+
+@font-face {
+   font-family:'Rajdhani-Medium';
+ src: url(/fonts/Rajdhani-Medium.ttf);
+ 
+ }
+ 
+ @font-face {
+   font-family: 'SpaceGrotesk-Bold';
+   src: url(/fonts/SpaceGrotesk-Bold.ttf);
+    }
+ 
+ 
+ @font-face {
+ font-family: 'SpaceGrotesk-Regular';
+ src: url(/fonts/SpaceGrotesk-Regular.ttf);
+ }
+
+p, h1, h2, a, li {
+   color: white;
+    
+}
+
+p, li{
+   font-family: 'SpaceGrotesk-Regular';
+ }
+
+ h2{
+   font-family: 'SpaceGrotesk-Bold';
+ }
+
+ h1, button {
+   font-family: 'Rajdhani-Medium';
+ }
+
+h1 {
+   font-size: 1.5em;
+   
+}
+
+h2 {
+   font-size: 0.9em; 
+   font-weight: bold;
+}
+
+p {
+   font-size: 0.9em; 
+}
+
+
+
+button {
+   font-size: 1em; 
+}
+
+
+
+/*II-Style header*/
+menu {
+   display: flex;
+   width: 94.25vw;
+   height: 100px;
+
+}
+
+menu div {
+    width: 100vw;
+ }
+
+ menu p {
+    width: 100vw;
+    padding-top: 25px;
+    text-align: right;
+    padding-right: 2em;
+
+ }
+
+ menu div img{
+    padding-top: 25px;
+ }
+
+/*III-Style barre de navigation*/
+aside{
+    position: fixed;
+    list-style: none;
+    padding-top: 100px;
+    text-align: center;
+    left: 75vw;
+    
+ }
+
+
+/*IV-Style main*/
+
+main{
+    margin-top: 0px;
+    width: 96vw;
+    border-top: 1px solid white;
+ }
+ section{
+   padding-left: 2em;
+
+}
+
+ /*1-Style intro*/
+
+
+#intro {
+  text-align: center;
+  height: 801px;
+  padding-top: 170px;
+}
+
+#intro img{
+    text-align: center;
+    padding-top: 400px;
+    width: 2em;
+  }
+
+button{
+   width: 30vw;
+   padding: 2vw 0;
+   margin: 2vw 2vw;
+   background: linear-gradient(to right, #EDDEBF,#890008);
+   opacity: 40%;
+   border: none;
+   color: white;
+   text-align: center;  
+ }
+
+
+ #intro div a button:hover{
+   opacity: 100%;
+}
+
+#contact button:hover{
+   opacity: 100%;
+}
+
+/*2-Style corps*/
+
+ /*2-1-Style corps global*/
+.figure {
+    display: flex;
+    text-align: center;
+  }
+  
+ .figure figure img {
+    width: 17vw;
+  }
+
+ /*2-2-Style nemesis*/
+
+ #nemesis h1 {
+    background-image: url(/images/illustrations/Bathome13.png);
+    background-repeat: no-repeat;
+    background-size: 13vw;
+    background-position-x: 6vw;
+    background-position-y: 0%;
+    padding-top: 10%;
+  }
+/*2-3-Style allies*/
+
+ #allies .titre h1{
+   background: url(/images/illustrations/Bathome12.png) no-repeat;
+   background-size: 36vw;
+   background-position: right;
+   padding-top: 21vw;
+   
+ }
+
+
+/*2-3-Style league*/
+#league img {
+   width: 100%;
+   left:-10vw;
+ }
+ 
+/*2-4-Style multimedia*/
+
+.multimedia {
+   display: flex;
+   justify-content: center;
+   height: 20em;
+ }
+
+.cotes img {
+   width: 2em;
+   padding: 6em 1em;
+}
+
+.box{
+   margin-left: 1em;
+   margin-right: 1em;
+   border-radius: 1em;
+   min-width: 26em;
+   background: linear-gradient(to bottom right, #4a4a40, #081d2a);
+      
+    }
+
+ .box img {
+   float: left;
+   margin-right: 1em;
+   border-bottom-left-radius: 1em;
+   border-top-left-radius: 1em;
+   height: 100%;
+   width: 30%;
+   overflow-y: scroll;
+ }
+
+ .box p {
+   margin: 2em 0;   
+}
+
+.annonce img {
+   width: 73vw;
+   padding: 10vw 5vw;
+}
+
+/*-Style formulaire*/
+form{
+   background: linear-gradient(to bottom right, #4a4a40, #081d2a);
+   padding: 5% 10%;
+   
+}
+
+
+#email, #message, #news, select{
+   background: none;
+   border-bottom: 1px solid white;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+  width: 100%;
+  margin-top: 3vw;
+}
+
+select {
+   color: white;
+   opacity: 40%;
+
+}
+
+.button3{
+   margin: 3vw 0;
+   text-align: center;
+}
+
+#contact .button3 button{
+   background: none;
+   margin: 0px 2vw;
+   border: 2px solid ;
+   border-image: linear-gradient(to right, #eddebf,#19587d) 1;
+   padding: 0px 0px;
+   width: 18vw;
+   height: 6vw;
+}
+
+.fin {
+   height: 300px;
+   text-align: center;
+   padding-top: 22vw;
+   background: url(/images/logos/icon_guillemets_1.png) no-repeat 2px 3px, url(/images/logos/icon_guillemets_2.png) no-repeat;
+   background-position: top left, bottom right;
+   width: 80%;
+   margin-left: 10vw;
+   margin-top: 10%;
+}
+
+.confirm, #contact h1 {
+   text-align: center;
+}
+
+/*-Style text fin*/
+.fin .rond {
+   display: flex;
+   justify-content: center;
+   column-gap: 0.5%;
+}
+
+.rare {
+   background-color: #19587d;
+}
+.point  {
+   border: 1px solid #19587d;;
+   width: 1vw;
+   height: 1vw;
+   margin-left: 1vw;
+   border-radius: 64px;
+
+}
+
+.label img {
+float: left;
+
+}
+
+/*IV-Style pieds de page*/
+
+footer {
+   width: 96vw;
+   height: 300px;
+   padding-top: 5em;
+   justify-content: center;
+   text-align: center;
+}
+
+.foot {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer .foot div {
+   margin-left: 2vw;
+   padding-bottom: 5%;
+}
